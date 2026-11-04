@@ -81,5 +81,5 @@ Playable today: **Europe, Turkey, the Caucasus, North Africa, the Middle East an
 **Testing.** 49 design checks against real-world numbers (traffic, fares, margins, hub shares), regression tests, multi-year market runs with only computer airlines, and automated browser tests of the interface.
 
 ## Status
-In active development and released often (r1–r14 so far; current: r14, 4 Nov 2026). Every release is kept, and the latest is always live at the link above.
+In active development and released often (r1–r15 so far; current: r15, 4 Nov 2026). Every release is kept, and the latest is always live at the link above.
 
