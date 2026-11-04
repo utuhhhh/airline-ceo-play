@@ -5,7 +5,7 @@ You are the chief executive of one airline, competing against computer-controlle
 
 ▶ **Play now:** https://utuhhhh.github.io/airline-ceo-play/ — no install, no account. Saves stay in your own browser.
 
-*This page describes release **r22** (4 Nov 2026).*
+*This page describes release **r23** (4 Nov 2026).*
 
 ---
 
@@ -117,5 +117,5 @@ Still to come: the Americas, Africa and Oceania (see *Coming next*). Data for ev
 **Balance being looked at:** careless airlines go bust too slowly; whether recent starts are too hard; scenario goals; accident rates over a long game; making the route suggestions good enough to follow.
 
 ## Status
-In active development and released often (r1–r22 so far; current: r22, 4 Nov 2026). Every release is kept, and the latest is always live at the link above.
+In active development and released often (r1–r23 so far; current: r23, 4 Nov 2026). Every release is kept, and the latest is always live at the link above.
 
