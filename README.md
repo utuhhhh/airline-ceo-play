@@ -5,7 +5,7 @@ You are the chief executive of one airline, competing against computer-controlle
 
 ▶ **Play now:** https://utuhhhh.github.io/airline-ceo-play/ — no install, no account. Saves stay in your own browser.
 
-*This page describes release **r18** (4 Nov 2026).*
+*This page describes release **r19** (4 Nov 2026).*
 
 ---
 
@@ -17,8 +17,8 @@ Most airline games are spreadsheets with planes on top, or arcade games with no 
 |---|---|
 | Start years | **1946 – 2026**; aircraft, prices, borders and events follow real history |
 | Ways to play | **3 game modes** (Real world, Open world, Sandbox), **6 scenarios**, 3 difficulty levels, takeovers of failing airlines |
-| Airports | **658** in 79 countries, with runways, curfews, slots, fees, jet bridges, opening and closing years |
-| Cities | **582** metro areas, plus ~10,000 population cells that decide which airport people drive to |
+| Airports | **over 1,200** in 95 countries, with runways, curfews, slots, fees, jet bridges, opening and closing years |
+| Cities | **over 1,000** metro areas, plus ~10,000 population cells that decide which airport people drive to |
 | Aircraft | **123** models from **35** manufacturers, from the DC-3 and Viscount to the A321neo and 787 |
 | Rival airlines | **79** in a 2019 start, flying ~5,500 aircraft on ~9,000 routes; ~35 in a 1960s start |
 | Rival names | **3,200+** fictional airline names — a different line-up every game |
@@ -75,20 +75,19 @@ Most airline games are spreadsheets with planes on top, or arcade games with no 
 - **Real accounting.** Double-entry books for every airline, checked every simulated day.
 
 ## The world
-Playable in r18: **Europe, Turkey, the Caucasus, North Africa, the Middle East and South Asia**.
-Already built and joining in the next release: **all of Asia** — China, Hong Kong, Macau and Mongolia; Japan, the Koreas and Taiwan; Southeast Asia; Russia east of the Urals and Central Asia (over 1,000 cities and about 170 rivals in total).
+Playable: **Europe, Turkey, the Caucasus, North Africa, the Middle East, South Asia and all of the rest of Asia** — China, Hong Kong, Macau and Mongolia; Japan, the Koreas and Taiwan; Southeast Asia; Russia east of the Urals and Central Asia (about 170 rivals). The Middle East and Asia are open to new airlines from 1990.
 Still to come: North America; Mexico, Central America and the Caribbean; South America; Africa; Oceania. Data for every region is already drafted, and every country will have at least one airport. New features wait until the whole world is in.
 
 ## Technical specs
 | | |
 |---|---|
-| Delivery | **One self-contained HTML file** (~1.3 MB); no server, no install. The internet is used only for the map library and map tiles |
+| Delivery | **One self-contained HTML file** (~1.5 MB); no server, no install. The internet is used only for the map library and map tiles |
 | Code | Plain JavaScript (ES modules), no frameworks; ~20,000 lines in 48 engine and 4 interface modules; bundled with esbuild |
 | Map | Leaflet 1.9 with built-in country borders |
 | Threads | The simulation runs in a **Web Worker** (background thread), so the screen never freezes |
-| Saves | Browser storage (IndexedDB), 5 named slots, compressed: a 2019 game is ~16 MB, ~3 MB packed |
-| Starting a game | ~16 s (rivals build their networks and the market settles) |
-| Speed | one quarter of play with 79 rivals: ~30 s on a slow 2-core test machine (≈2.3 s a game week); a normal computer is faster |
+| Saves | Browser storage (IndexedDB), 5 named slots, compressed: a 2019 game is ~21 MB, ~5 MB packed (a speed and save-size pass is next) |
+| Starting a game | ~30 s on the slow test machine (rivals build their networks and the market settles) |
+| Speed | a game week takes ~1.3–2.4 s with about 170 rivals on a slow 2-core test machine; a normal computer is faster |
 | Memory | ~200 MB of game data for a full 2019 market; the browser tab stays under 1 GB |
 | Recommended | A recent desktop browser (Chrome, Edge, Firefox, Safari) and 8 GB RAM |
 
@@ -99,5 +98,5 @@ Still to come: North America; Mexico, Central America and the Caribbean; South A
 **Testing.** 49 design checks against real-world numbers (traffic, fares, margins, hub shares), regression tests, multi-year market runs with only computer airlines, and automated browser tests of the interface.
 
 ## Status
-In active development and released often (r1–r18 so far; current: r18, 4 Nov 2026). Every release is kept, and the latest is always live at the link above.
+In active development and released often (r1–r19 so far; current: r19, 4 Nov 2026). Every release is kept, and the latest is always live at the link above.
 
