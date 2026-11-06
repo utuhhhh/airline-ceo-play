@@ -5,7 +5,7 @@ You are the chief executive of one airline, competing against computer-controlle
 
 ▶ **Play now:** https://utuhhhh.github.io/airline-ceo-play/ — no install, no account. Saves stay in your own browser.
 
-*This page describes release **r27** (6 Nov 2026).*
+*This page describes release **r28** (6 Nov 2026).*
 
 ---
 
@@ -15,7 +15,7 @@ Most airline games are spreadsheets with planes on top, or arcade games with no 
 ## At a glance
 | | |
 |---|---|
-| Start years | **1946 – 2026** in Europe, the United States and South America, **1990 – 2026** everywhere else (history back to 1946 coming region by region); aircraft, prices, borders and events follow real history |
+| Start years | **1946 – 2026** in Europe, the United States, South America and South Asia, **1990 – 2026** everywhere else (history back to 1946 coming region by region); aircraft, prices, borders and events follow real history |
 | Ways to play | **3 game modes** (Real world, Open world, Sandbox), **6 scenarios**, 3 difficulty levels, takeovers of failing airlines |
 | Airports | **1,980** — **every country and territory has at least one** (230+), with runways, curfews, slots, fees, jet bridges, opening and closing years |
 | Cities | **1,772** metro areas, plus ~27,000 population cells that decide which airport people drive to |
@@ -79,7 +79,7 @@ Most airline games are spreadsheets with planes on top, or arcade games with no 
 
 ## The world
 **The whole world is in** (since r23): Europe, Turkey and the Caucasus; North Africa and the Middle East; South Asia; China, Japan, the Koreas and Taiwan; Southeast Asia; Siberia and Central Asia; the USA and Canada; Mexico, Central America and the Caribbean; South America; Sub-Saharan Africa; Australia, New Zealand and the Pacific — 52 areas in all. Every country, down to Tuvalu and Kiribati, has at least one airport.
-Europe, the United States and South America can be played from 1946; the rest of the world from 1990, with its history before 1990 on the way. Regions you don't fly to run on a lighter monthly simulation, so the whole world fits in one browser tab.
+Europe, the United States, South America and South Asia can be played from 1946; the rest of the world from 1990, with its history before 1990 on the way. Regions you don't fly to run on a lighter monthly simulation, so the whole world fits in one browser tab.
 
 ## Technical specs
 | | |
@@ -125,5 +125,5 @@ The work is now split into departments that run side by side:
 **Balance being looked at:** new airlines should start less well known; charter contracts that pay with your own fleet; careless airlines go bust too slowly; whether recent starts are too hard; scenario goals; accident rates over a long game.
 
 ## Status
-In active development and released often (r1–r27 so far; current: r27, 6 Nov 2026). Every release is kept, and the latest is always live at the link above.
+In active development and released often (r1–r28 so far; current: r28, 6 Nov 2026). Every release is kept, and the latest is always live at the link above.
 
