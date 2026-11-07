@@ -5,7 +5,7 @@ You are the chief executive of one airline, competing against computer-controlle
 
 ▶ **Play now:** https://utuhhhh.github.io/airline-ceo-play/ — no install, no account. Saves stay in your own browser.
 
-*This page describes release **v0.91.1** (7 Nov 2026).*
+*This page describes release **v0.9.2** (7 Nov 2026).*
 
 ---
 
@@ -125,5 +125,5 @@ The work is now split into departments that run side by side:
 **Balance being looked at:** new airlines should start less well known; charter contracts that pay with your own fleet; careless airlines go bust too slowly; whether recent starts are too hard; scenario goals; accident rates over a long game.
 
 ## Status
-In active development and released often (r1–v0.91.1 so far; current: v0.91.1, 7 Nov 2026). Every release is kept, and the latest is always live at the link above.
+In active development and released often (r1–v0.9.2 so far; current: v0.9.2, 7 Nov 2026). Every release is kept, and the latest is always live at the link above.
 
