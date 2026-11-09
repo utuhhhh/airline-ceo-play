@@ -1,129 +1,126 @@
 # ✈️ Airline CEO
 
-**A single-player airline management game that runs in your browser.**
-You are the chief executive of one airline, competing against computer-controlled rivals in a living, believable market. Pick any year from 1946 to 2026, pick a home airport — or pick a historical scenario — and try to build something that lasts.
+**Run your own airline anywhere in the world, any year from 1946 to 2026 — right in your browser.**
 
-▶ **Play now:** https://utuhhhh.github.io/airline-ceo-play/ — no install, no account. Saves stay in your own browser.
+[![Play now](https://img.shields.io/badge/▶_Play_now-free_in_your_browser-1f6f8b?style=for-the-badge)](https://utuhhhh.github.io/airline-ceo-play/)
+![No install](https://img.shields.io/badge/no_install-one_HTML_file-555?style=for-the-badge)
 
-*This page describes release **v0.9.9** (9 Nov 2026).*
+*This page describes release **v0.9.9** (9 Nov 2026).* No account needed; saves stay in your own browser.
 
----
+![The world map with every rival airline's network](docs/screenshots/world-map.jpg)
 
-## The idea
-Most airline games are spreadsheets with planes on top, or arcade games with no real economy. Airline CEO aims for the middle: **a deep simulation of passengers, aircraft, money and people**, presented like a modern game — big cards, maps, charts and step-by-step screens instead of walls of numbers.
+One player airline against **300+ computer airlines** in a living market. Passengers choose between you, your rivals and the train; fuel, wars, recessions and pandemics hit when history says they did. Deep simulation, shown with maps, cards and charts instead of spreadsheets.
 
 ## At a glance
-| | |
-|---|---|
-| Start years | **1946 – 2026** in Europe, North and Central America, the Caribbean, South America, South and South-east Asia, East and Southern Africa, and Oceania, **1990 – 2026** everywhere else (history back to 1946 coming region by region); aircraft, prices, borders and events follow real history |
-| Ways to play | **3 game modes** (Real world, Open world, Sandbox), **6 scenarios**, 3 difficulty levels, takeovers of failing airlines |
-| Airports | **1,980** — **every country and territory has at least one** (230+), with runways, curfews, slots, fees, jet bridges, opening and closing years |
-| Cities | **1,772** metro areas, plus ~27,000 population cells that decide which airport people drive to |
-| Aircraft | **123** models from **35** manufacturers, from the DC-3 and Viscount to the A321neo and 787 |
-| Rival airlines | **317** in a 2019 start, flying ~16,000 aircraft on ~19,000 routes; ~120 in a 1960s start |
-| Rival names | **4,400+** fictional airline names — a different line-up every game |
-| History | **750** real aviation and world events, **755** planned events, **89** kinds of random events, **1,400+** festivals and holidays |
-| Trains | **242** rail links (121 high-speed) with opening years, competing with flights |
-| Government contracts | **79** subsidised routes in 63 European schemes |
-| Progression | **10** levels (Air taxi → Global carrier), **39** achievements |
-| Money | **170+** currencies, each with real exchange rates by year |
+| 🌍 **2,170** airports | 🏙️ **1,822** cities | ✈️ **123** aircraft · 35 makers | 🏢 **~320** rival airlines |
+|:---:|:---:|:---:|:---:|
+| 📅 **1946–2026** everywhere | 📰 **1,386** real events | 🎯 **11** scenarios | 🏆 **20** levels · **40** achievements |
 
-## Ways to play
-- **Free game.** Build an airline from nothing, or **buy a failing one for €1** — with its debts, staff and routes — and turn it around within two years. Choose a **low-cost, full-service hub, charter or regional** airline, or design your own product. Pick a name, colours, livery and logo, and a CEO background that gives one lasting advantage.
-- **Game modes.** **Real world** keeps real politics: route approvals, fixed fares where they applied, ownership rules, closed airspace and wars. **Open world** lets you switch any of those off (rivals play by the same rules). **Sandbox** is for experimenting.
-- **Scenarios** with a goal, a deadline and a medal:
-  - *The Wall comes down* (1990) — the first private airline of a newly free country (Budapest, Warsaw, Prague, Bucharest or Sofia)
-  - *Rescue a flag carrier* (1992) — take over a loss-making national airline as Europe opens up
-  - *Low-cost revolution* (1997) — two jets at a secondary airport
-  - *Oil shock* (1973) — a holiday charter airline when fuel prices quadruple
-  - *Pandemic* (2020) — take over an airline weeks before COVID
-  - *Gulf hub* (1995) — a long-haul airline between Europe and Asia
-- **Cheats** (optional, in the menu): money, unlock everything, instant deliveries, no breakdowns or strikes. Using one stops achievements and level points.
+Every country and territory has at least one airport; rival airlines are fictional and different in every game.
 
-## Features
-**Network and schedule**
-- Find routes on a map: demand, fares and rivals for every destination, with tinted cards for places you already fly and a switch to hide them.
-- Win traffic rights, respect border rules (Schengen, trade blocs, closed airspace) and night curfews; buy slots at busy airports; apply for (or withdraw) route approvals.
-- Route settings as numbered steps: aircraft, fares, times, service. Timetables (open from the first level) per aircraft across the week; flights to one place spread over the day; one click reorganises the whole fleet without adding slot or night problems.
+## How you play
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/start.jpg" alt="Start screen"><br><b>Start your way</b> — found a new airline (custom or quick start), take over a struggling one for $1, or play a scenario with a goal and a deadline.</td>
+<td width="50%"><img src="docs/screenshots/find-routes.jpg" alt="Find routes"><br><b>Find routes</b> — every destination ranked by what a daily flight would earn, with room to grow and rivals on the map.</td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/timetable.jpg" alt="Timetable"><br><b>Build the timetable</b> — drag flights between days and aircraft; slots, night closures and business-friendly hours are marked.</td>
+<td><img src="docs/screenshots/get-an-aircraft.jpg" alt="Get an aircraft"><br><b>Grow the fleet</b> — buy or lease, new or used, from the DC-3 to the A350; design the cabin and paint it in your colours.</td>
+</tr>
+</table>
 
-**Fleet**
-- Get an aircraft in six screens: maker → type → new or used, buy or lease → specs and options → cabin → registration, with the price always shown.
-- Saved cabin layouts; registration ranges per aircraft family under your country's prefix.
-- Delivery queues, lessors, used-aircraft market, refits, maintenance checks by family, spare aircraft, boarding and cleaning times per type.
+- 🛫 **Get certified first** — company, licence and proving flights before the first ticket (or skip with quick start).
+- 💵 **Price and sell** — fares per class, bag and seat fees, catering, marketing, partner airlines for connections, charter and cargo contracts, government-subsidised routes.
+- 👩‍✈️ **Lead people** — pilots, cabin crew and engineers, pay and union claims, a board that can fire you.
+- 🏦 **Run the money** — loans, shares, dividends and full accounts; three months without cash and it's over.
+- ⚠️ **Live with the world** — weather, airspace closures, accidents at real rates, fuel shocks, festivals and seasons, rivals that announce their moves, grow and go bust.
 
-**Product and money**
-- Fares per class, bag and seat fees (from 2006), catering and extras, marketing campaigns, passenger reviews.
-- Cargo, tour-operator **charter contracts** (including short-notice ones, with reminders before they start), and **government contracts** for small and island airports.
-- Full books: loans and a bank (repaying asks first), depreciation, income statement and balance sheet; go public, pay dividends, buy back shares.
+<img src="docs/screenshots/rivals.jpg" alt="Rivals and partners">
 
-**People and safety**
-- Hire pilots, cabin crew, engineers and ground staff; set pay per role (every change is confirmed with its cost); watch for strikes.
-- **Accidents and incidents** at real-world rates for the year — from bird strikes and hard landings to rare serious accidents and crashes. Risk grows with overdue maintenance, older aircraft and unhappy or short-staffed crews; insurance pays, but reputation and premiums suffer. Rivals have accidents too.
-- A board sets targets and can fire you. Run out of cash for three months and the game is over.
-
-**Your airline and your rivals**
-- *My airline* page: your airline as a rival sees it, each figure ranked against your competitors, plus a Safety card.
-- Rivals open and close routes, start fare wars, replace their bosses, get rescued by governments or go bankrupt; new airlines appear.
-- Fuel shocks, recessions, COVID, wars and airspace closures, new airports opening and old ones closing, seasons and festivals — all reported in a full-screen newspaper.
-
-**Interface**
-- Dashboard tiles open the full chart behind them; all warnings and questions use the game's own dialogs; short sliders with typed values; redrawn aircraft side views (including freighters); five named save slots.
-- Four game speeds: 10 minutes, 1 minute, 10 seconds or 1 second per game day.
-- 🪳 **Report a problem**: a floating button on every screen sends a one-line report with the release, game date and page — friends are already play-testing with it.
-
-## What makes the simulation believable
-- **Passengers choose.** Every week, demand for tens of thousands of city pairs is split between business, leisure and budget travellers. They compare fares, times, frequency, connections through hubs, trains — and the option of not flying at all (nested-logit choice model). Passengers who don't fit spill to the next-best flight.
-- **Real-world calibration.** Demand is built from real populations, incomes, tourism and ties between countries, then fitted to real 2019 airport and route traffic and to historical traffic since 1946. Runway lengths are checked against public sources. Every data row is marked *sourced*, *estimated* or *guess*.
-- **Real costs.** Fuel at the year's real price, crew hours, maintenance per block hour, airport fees, ownership and lease costs, insurance, inflation and exchange rates.
-- **Real accounting.** Double-entry books for every airline, checked every simulated day.
-
-## The world
-**The whole world is in** (since r23): Europe, Turkey and the Caucasus; North Africa and the Middle East; South Asia; China, Japan, the Koreas and Taiwan; Southeast Asia; Siberia and Central Asia; the USA and Canada; Mexico, Central America and the Caribbean; South America; Sub-Saharan Africa; Australia, New Zealand and the Pacific — 52 areas in all. Every country, down to Tuvalu and Kiribati, has at least one airport.
-Europe, North and Central America, the Caribbean, South America, South and South-east Asia, East and Southern Africa, and Oceania can be played from 1946; the rest of the world from 1990, with its history before 1990 on the way. Regions you don't fly to run on a lighter monthly simulation, so the whole world fits in one browser tab.
+## Why it feels real
+- **Passengers choose** every week between business, leisure and budget trips — fares, times, frequency, connections, trains, or staying home.
+- **Real-world numbers** for demand: populations, incomes, tourism and traffic since 1946. Every data row is marked *sourced*, *estimated* or *guess*.
+- **Real costs**: the year's fuel price, crews, maintenance, airport fees, leases, inflation and 190+ currencies. Long routes fly with fuel stops when the aircraft can't make it.
+- **Real accounts**: double-entry books for every airline, checked every simulated day.
 
 ## Technical specs
 | | |
 |---|---|
-| Delivery | **One self-contained HTML file** (~2 MB); no server, no install. The internet is used only for the map library and map tiles |
-| Code | Plain JavaScript (ES modules), no frameworks; ~20,800 lines in 49 engine and 4 interface modules; bundled with esbuild |
-| Map | Leaflet 1.9 with built-in country borders |
-| Threads | The simulation runs in a **Web Worker** (background thread), so the screen never freezes |
-| Saves | Browser storage (IndexedDB), 5 named slots, compressed: a 2019 world game is ~16 MB, ~5 MB packed |
-| Starting a game | ~35–40 s on the slow test machine (rivals build their networks and the market settles) |
-| Speed | a game week takes ~8–12 s with 317 rivals worldwide on a slow 2-core test machine; a normal computer is faster |
-| Memory | ~440–490 MB of game data for the whole 2019 world; the browser tab uses up to ~2 GB |
-| Recommended | A recent desktop browser (Chrome, Edge, Firefox, Safari) and 8 GB RAM |
+| Delivery | **One HTML file** (~2.8 MB), no server, no install; the internet is used only for the map library |
+| Code | ~37,000 lines of plain JavaScript, no frameworks; the simulation runs in a background thread so the screen never freezes |
+| Speed (MacBook Air) | new game ~15 s · a game month ~8–14 s |
+| Memory | ~400 MB of game data for the whole 2019 world; the browser tab peaks around 1.3–1.5 GB |
+| Saves | in the browser, 5 named slots, compressed |
+| Works on | any recent desktop browser (Chrome, Edge, Firefox, Safari); 8 GB RAM recommended |
 
-*Measured on r24, 2019 start from Timișoara, whole world in. These are the numbers the speed pass is aimed at (targets on a normal computer: new game under 20 s, a game month under 5 s, under 400 MB).*
-
-**Architecture.** The engine (`engine/`) knows nothing about the screen: a daily tick runs flights, revenue and costs; once a week passengers choose their itineraries for every city pair; once a month airlines review their routes, prices and fleets. The interface (`web/`) only sends player actions and draws snapshots. Far regions you don't fly to are simulated monthly instead of weekly (same formula, so nothing jumps when you arrive). Data lives in readable CSV tables built into the game file. Results are deterministic: a saved and reloaded game continues exactly as one that never stopped (checked by an automated play test).
-
-**Testing.** 49 design checks against real-world numbers (traffic, fares, margins, hub shares), regression tests, multi-year market runs with only computer airlines, and automated browser tests of the interface.
+The same game always gives the same result (checked by an automated play test), and every text is in one file, ready for translation.
 
 ## Coming next
-The work is now split into departments that run side by side:
-- 🐞 **QA** — fixes from friends' reports, one release at a time (r24 was the first batch).
-- ⚡ **Performance** — a speed and save-size pass with the whole world, then a check on a normal home computer.
-- 🌍 **World and history** — better travel between countries and continents; **history back to 1946 for the whole world**, one region at a time; runway history by year; smaller airports (down to 0.1 M passengers a year).
-- 🎨 **A complete UI overhaul**, designed screen by screen; an **airport view** of your bases with your aircraft at the stands; hand-drawn aircraft art.
-- 🛫 **A launch phase** before your first flight: company, licence and approvals by country and era — at most three game months, with a quick-start to skip it.
-- 🔧 **Engineering** — the code split into smaller parts, three tiers of tests, automatic checks on every change.
-- 🚀 **Launch** — a plan for **Steam** (desktop version with saves on disk, Steam achievements, cloud saves, leaderboards for scenarios and a weekly challenge), with the browser version kept as a free demo; a study of online multiplayer.
+- 🎮 **Steam 1.0** — desktop version with saves on disk, Steam achievements, cloud saves and leaderboards; this browser version stays as a free demo.
+- ⚡ **Faster and lighter** — a game month under 5 s and less memory.
+- 🛬 **Airport view** of your bases, with your aircraft at the stands; hand-drawn aircraft art.
+- 📈 Stakes in rivals and hostile takeovers, daughter airlines abroad, cheap-early / dear-late fares, more scenarios.
 
-**On the wish list:**
-- 🎟️ Several fares within a class — cheap early tickets, expensive late ones
-- 🪑 Used aircraft arrive with their own cabin; cabins wear out and need a retrofit
-- 🤝 Partner airlines for connections, one per region
-- 📈 A full stock market: stakes in rivals, hostile takeovers and mergers
-- 🌍 Daughter airlines abroad
-- 🏖️ Holiday areas — which airport tourists use for a resort or a coast
-- ⚖️ Passenger compensation rules per region (EU261, US and others)
-- 🏛️ Government contracts v2: rivals fly theirs, new schemes outside Europe
-- ❄️ Charter: seasonal leases and renting idle aircraft out in winter
-- 🎬 More scenarios, including new ones for every region
+## Release notes
+<!-- releases:start -->
+<details>
+<summary><b>Release notes</b> — 51 releases, latest <b>v0.9.9</b> (9 Nov 2026). Click to open.</summary>
 
-**Balance being looked at:** new airlines should start less well known; charter contracts that pay with your own fleet; careless airlines go bust too slowly; whether recent starts are too hard; scenario goals; accident rates over a long game.
+| Release | Date | What changed |
+|---|---|---|
+| **v0.9.9** | 9 Nov 2026 | Fuel stops on long routes; cleaner look on every screen; Brazil regions; shorter runways; rivals on short routes; old saves fixed; many fixes |
+| **v0.9.8** | 8 Nov 2026 | Departures spread 5 min apart; Boarding & cleaning Apply per type; Save button; map bubbles grow on zoom; When it flies in the route pop-up; fixes; all text in one place for translation |
+| **v0.9.7** | 8 Nov 2026 | Rivals announce their moves; 52 new airports; What's new window; better estimates; real runway lengths; busier 1950s; a year of statistics; used prices fall after production ends |
+| **v0.9.6** | 8 Nov 2026 | Aircraft rents by year: older types like the A340 and 747-400 rent like new aircraft when new; rent falls slower with age and faster once a type is out of production |
+| **v0.9.5** | 7 Nov 2026 | Rival airlines fly from day 1 again (their figures on day 1 were empty); failing checks fixed |
+| **v0.9.4** | 7 Nov 2026 | Timetable rebuilt: drag a flight to another day or aircraft; route set-up suggests departure times with both legs; Group by on Your routes and Your fleet |
+| **v0.9.3** | 7 Nov 2026 | Planned turnaround per aircraft type; asks whether routes already flying follow; a route's own turnaround in route set-up and the route pop-up |
+| **v0.9.2** | 7 Nov 2026 | Route estimates before aircraft rent; friends' reports 58–117 fixed |
+| **v0.91.1** | 7 Nov 2026 | Bars swapped: money, date and speeds at the top; quick pages and search at the bottom; all centred |
+| **v0.92** | 7 Nov 2026 | Search field in the top bar, side menu shows every page with icons, Calendar next to Inbox, bottom bar centred |
+| **v0.91** | 7 Nov 2026 | Rebrand with two colours, route money a week, lease call-off costs the deposit, crews hired for you below level 6, 'what changed' names fares and costs |
+| **r38** | 7 Nov 2026 | Leases arrive sooner (3–7 days used, 10–14 new or widebody); computer airlines' leases wait too |
+| **r37** | 7 Nov 2026 | Start year without the typing box; no real airline names in seat and website descriptions |
+| **r36** | 7 Nov 2026 | Friends' reports 27–57: bottom bar, presets-only start screen, Market compare and fixes, Find routes sort/search/all airports, leases arrive in 1–4 weeks |
+| **v0.9a** | 6 Nov 2026 | Version 0.9a: no real airline names left in the history news source files |
+| **v0.9** | 6 Nov 2026 | Version 0.9: the whole world playable from 1946 in most areas; history news source files cleaned (decision 411) |
+| **r35** | 6 Nov 2026 | Plain names for branded events (Olympics and World Cups keep theirs); history news told twice merged into one; scenario intros without real airline names |
+| **r34** | 6 Nov 2026 | New side menu (one bar, categories drop their pages on hover, airline badge) and new top bar (quick pages, cash and clock, level, speeds with Next); phone tab bar |
+| **r33** | 6 Nov 2026 | History: the Middle East, China/Hong Kong/Taiwan/Macau/Mongolia and West and Central Africa playable from 1946, with their own growth curves (H5, H7, H11) |
+| **r32** | 6 Nov 2026 | Levels 1–20 with ranks and a level-up screen, Coming up page and event news, one impact block everywhere, Staff on one page with union claims |
+| **r31** | 6 Nov 2026 | UI rebuild R12–R14: new start screen, rethought Bank, Shareholders, Career, My airline, Progress, Ctrl K search |
+| **r30** | 6 Nov 2026 | Friends' reports 23–26: new-route aircraft order, 🪳 back bottom-left, scrolling news ticker, range and fuel on plane cards; news when aircraft go on sale, stop production or leave service |
+| **r29** | 6 Nov 2026 | Find routes: a 777 or A350 from a hub now finds long-haul routes (cargo and connecting fares counted); India 1953–1993 one airline per route |
+| **r28** | 6 Nov 2026 | UI R6–R9: route, aircraft, airport and rival pop-ups; new route in three steps; Get an aircraft replaces Buy & lease; History H2 (Canada, Mexico, Central America from 1946), H5, H6, runway history |
+| **r27** | 6 Nov 2026 | UI rebuild R3–R5 merged with the latest world: Home, Statistics, full-screen map, Inbox with four levels and the guided first month, skip summary, 14-day timeline, live ticker |
+| **r26** | 6 Nov 2026 | UI rebuild R3–R5: Home with live map and data wall, Statistics, full-screen map, Inbox with four levels and the guided first month, skip summary, 14-day timeline and live ticker; top bar fixes |
+| **r25** | 5 Nov 2026 | New look: side menu with the date and clock, new top bar (pause, ▶, ▶▶, ▶▶▶ and Skip to the next event), pop-ups that stack, Inbox and Statistics pages; history from 1946 in the United States and South America |
+| **r24** | 5 Nov 2026 | QA fixes from friends' reports: Timetable from level 1, 1× = 10 min a day, widebodies in Find routes (A–Z), no paid seat choice before 2006, loan repay asks first, maps stay inside their edges, charter cards without the reference type; runway lengths checked against Wikipedia (Cluj 2,100 m and 222 more) |
+| **r23** | 4 Nov 2026 | The whole world: Oceania and Sub-Saharan Africa join; every country has an airport |
+| **r22** | 4 Nov 2026 | 🪳 Report a problem is now a floating button in the bottom-left corner of every screen |
+| **r21** | 4 Nov 2026 | 🐞 Report a problem: tips on writing a report; first release with the button online |
+| **r20** | 4 Nov 2026 | 🐞 Report a problem button in the top bar: one line, sent to the owner's bug-report form with the release, game date and page |
+| **r19** | 4 Nov 2026 | All of Asia: China, Japan, the Koreas, Taiwan, Southeast Asia, Siberia and Central Asia now playable from 1990 |
+| **r18** | 4 Nov 2026 | Small fixes: smaller saves, withdraw a route application, East German airline closes 1991, flight numbers no longer repeat, Open world rivals and wars, Prague in The Wall comes down |
+| **r17** | 4 Nov 2026 | Two more scenarios: Pandemic 2020 and Gulf hub 1995 |
+| **r16** | 4 Nov 2026 | Scenarios: The Wall comes down, Rescue a flag carrier, Low-cost revolution, Oil shock — a goal, a deadline and a medal |
+| **r15** | 4 Nov 2026 | Accidents and incidents: small incidents, serious accidents and crashes at real-world rates for the year; insurance and reputation; rivals too; Safety card on My airline |
+| **r14** | 4 Nov 2026 | Game modes: Real world, Open world (switch off route approvals, fixed fares, ownership rules, closed airspace) and Sandbox |
+| **r13** | 4 Nov 2026 | Cheats in the ☰ menu: money, unlock everything, instant deliveries and refits, no breakdowns or strikes (using one stops achievements and level points) |
+| **r12** | 4 Nov 2026 | My airline page: your airline as a rival sees it, each figure ranked against your competitors, identity and brand below |
+| **r11** | 4 Nov 2026 | Getting an aircraft in six screens (maker, type, new or used, specs and options, cabin, registration) with the price at the bottom; saved cabins; registration ranges per aircraft family |
+| **r10** | 4 Nov 2026 | UI pass: in-game dialogs instead of browser pop-ups; pay confirmations; new crew page; route settings as numbered steps; short sliders with typed values; dashboard tiles open full charts; Find routes tinted cards and hide switch; Gov't contracts; aircraft drawings redrawn (fin, cockpit, windows, freighters) |
+| **r9** | 4 Nov 2026 | Reorganise all flights never adds slot or night problems; charter reminders 30 and 7 days before start; short-runway warning (London City); Find routes list follows the window |
+| **r8** | 4 Nov 2026 | Charter airlines: short-notice contracts, and a new charter airline starts with one contract signed (decision 59) |
+| **r7** | 4 Nov 2026 | Charter airlines get twice the tour-operator work (decision 58); fixed a crash loading games saved during a festival (B7); charter offers check runways (B8) |
+| **r6** | 3 Nov 2026 | Levels come four times slower (owner's comment 26) |
+| **r5** | 3 Nov 2026 | Government contracts (Europe): bid to fly subsidised routes to small and island airports; page under Network, opens at level 3 |
+| **r4** | 3 Nov 2026 | Block 3: flights to one place spread over the day, Boarding & cleaning per aircraft type, Reorganise all flights, five named save slots; Services renamed Fares & extras |
+| **r3** | 3 Nov 2026 | UI pass block 2: full-screen newspaper, Services (typical estimates, apply to flown routes?, route lock), Staff (tabs, pay per role, crews hired at once), slot fees, market built in the background, takeover map, rival cards, charter costs per type, Maintenance by family, brand colours and logos, drawings |
+| **r2** | 3 Nov 2026 | UI pass block 1 (Find routes, route pop-up, Buy & Lease, Your fleet by type) and r1 play fixes (business fare estimate, takeover list and fleet ages, spares on 1-day checks, Rivals and Flight search from level 1, map labels by zoom) |
+| **r1** | 3 Nov 2026 | Owner's play fixes (charters from day 1, approvals in a week, slots, night closures, start screen, dashboard), far cities in two halves |
 
-## Status
-In active development and released often (r1–v0.9.9 so far; current: v0.9.9, 9 Nov 2026). Every release is kept, and the latest is always live at the link above.
+</details>
+<!-- releases:end -->
 
