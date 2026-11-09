@@ -7,7 +7,6 @@
 
 *This page describes release **v0.9.9** (9 Nov 2026).* No account needed; saves stay in your own browser.
 
-![The world map with every rival airline's network](docs/screenshots/world-map.jpg)
 
 One player airline against **300+ computer airlines** in a living market. Passengers choose between you, your rivals and the train; fuel, wars, recessions and pandemics hit when history says they did. Deep simulation, shown with maps, cards and charts instead of spreadsheets.
 
