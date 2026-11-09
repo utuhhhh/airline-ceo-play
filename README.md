@@ -5,8 +5,9 @@
 [![Play now](https://img.shields.io/badge/▶_Play_now-free_in_your_browser-1f6f8b?style=for-the-badge)](https://utuhhhh.github.io/airline-ceo-play/)
 ![No install](https://img.shields.io/badge/no_install-one_HTML_file-555?style=for-the-badge)
 
-*This page describes release **v0.9.9** (9 Nov 2026).* No account needed; saves stay in your own browser.
+*This page describes release **v0.9.10** (9 Nov 2026).* No account needed; saves stay in your own browser.
 
+![The world map with every rival airline's network](docs/screenshots/world-map.jpg)
 
 One player airline against **300+ computer airlines** in a living market. Passengers choose between you, your rivals and the train; fuel, wars, recessions and pandemics hit when history says they did. Deep simulation, shown with maps, cards and charts instead of spreadsheets.
 
@@ -64,10 +65,11 @@ The same game always gives the same result (checked by an automated play test), 
 ## Release notes
 <!-- releases:start -->
 <details>
-<summary><b>Release notes</b> — 51 releases, latest <b>v0.9.9</b> (9 Nov 2026). Click to open.</summary>
+<summary><b>Release notes</b> — 52 releases, latest <b>v0.9.10</b> (9 Nov 2026). Click to open.</summary>
 
 | Release | Date | What changed |
 |---|---|---|
+| **v0.9.10** | 9 Nov 2026 | New top and bottom bars; Maintenance page rebuilt; Ground services; lessor offers in Get an aircraft; many screen fixes |
 | **v0.9.9** | 9 Nov 2026 | Fuel stops on long routes; cleaner look on every screen; Brazil regions; shorter runways; rivals on short routes; old saves fixed; many fixes |
 | **v0.9.8** | 8 Nov 2026 | Departures spread 5 min apart; Boarding & cleaning Apply per type; Save button; map bubbles grow on zoom; When it flies in the route pop-up; fixes; all text in one place for translation |
 | **v0.9.7** | 8 Nov 2026 | Rivals announce their moves; 52 new airports; What's new window; better estimates; real runway lengths; busier 1950s; a year of statistics; used prices fall after production ends |
