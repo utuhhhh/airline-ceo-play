@@ -5,7 +5,7 @@
 [![Play now](https://img.shields.io/badge/▶_Play_now-free_in_your_browser-1f6f8b?style=for-the-badge)](https://utuhhhh.github.io/airline-ceo-play/)
 ![No install](https://img.shields.io/badge/no_install-one_HTML_file-555?style=for-the-badge)
 
-*This page describes release **v0.9.11** (9 Nov 2026).* No account needed; saves stay in your own browser.
+*This page describes release **v0.9.12** (10 Nov 2026).* No account needed; saves stay in your own browser.
 
 ![The world map with every rival airline's network](docs/screenshots/world-map.jpg)
 
@@ -65,10 +65,11 @@ The same game always gives the same result (checked by an automated play test), 
 ## Release notes
 <!-- releases:start -->
 <details>
-<summary><b>Release notes</b> — 53 releases, latest <b>v0.9.11</b> (9 Nov 2026). Click to open.</summary>
+<summary><b>Release notes</b> — 54 releases, latest <b>v0.9.12</b> (10 Nov 2026). Click to open.</summary>
 
 | Release | Date | What changed |
 |---|---|---|
+| **v0.9.12** | 10 Nov 2026 | Find routes rebuilt, redesigned pages, early-era history |
 | **v0.9.11** | 9 Nov 2026 | Wider pop-ups; Find routes rows with rivals and travellers; route pop-up tidied |
 | **v0.9.10** | 9 Nov 2026 | New top and bottom bars; Maintenance page rebuilt; Ground services; lessor offers in Get an aircraft; many screen fixes |
 | **v0.9.9** | 9 Nov 2026 | Fuel stops on long routes; cleaner look on every screen; Brazil regions; shorter runways; rivals on short routes; old saves fixed; many fixes |
