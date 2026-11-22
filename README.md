@@ -7,7 +7,7 @@ Start an airline anywhere in the world, in any year from 1946, and grow it again
 [![Play now](https://img.shields.io/badge/▶_Play_now-free_in_your_browser-1f6f8b?style=for-the-badge)](https://utuhhhh.github.io/airline-ceo-play/)
 ![No install](https://img.shields.io/badge/no_install-one_HTML_file-555?style=for-the-badge)
 
-*This page describes release **v0.9.19** (18 Nov 2026).* No account needed; saves stay in your own browser.
+*This page describes release **v0.9.20** (22 Nov 2026).* No account needed; saves stay in your own browser.
 
 ![The world map with every rival airline's network](docs/screenshots/world-map.jpg)
 
@@ -67,10 +67,11 @@ The same game always gives the same result (checked by an automated play test), 
 ## Release notes
 <!-- releases:start -->
 <details>
-<summary><b>Release notes</b> — 61 releases, latest <b>v0.9.19</b> (18 Nov 2026). Click to open.</summary>
+<summary><b>Release notes</b> — 62 releases, latest <b>v0.9.20</b> (22 Nov 2026). Click to open.</summary>
 
 | Release | Date | What changed |
 |---|---|---|
+| **v0.9.20** | 22 Nov 2026 | Links between pages, new Finances figures, friends' bug fixes |
 | **v0.9.19** | 18 Nov 2026 | Exact flight times, rebuilt pages, income tax, slots and era fares |
 | **v0.9.18** | 17 Nov 2026 | Your timetable, your times: new route-times editor, rivals give way, clearer screens |
 | **v0.9.17** | 16 Nov 2026 | History-true costs and fleets, cargo moves out, choose your rivals |
