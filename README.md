@@ -1,57 +1,43 @@
 # ✈️ Airline CEO
 
-**Run your own airline anywhere in the world, any year from 1946.**
-
-Start an airline anywhere in the world, in any year from 1946, and grow it against fictional rivals in a living market. The jet age, oil shocks, open skies and the low-cost boom all arrive on time — right in your browser, no install.
+**Run your own airline anywhere in the world, any year from 1946 to 2026 — right in your browser.**
 
 [![Play now](https://img.shields.io/badge/▶_Play_now-free_in_your_browser-1f6f8b?style=for-the-badge)](https://utuhhhh.github.io/airline-ceo-play/)
 ![No install](https://img.shields.io/badge/no_install-one_HTML_file-555?style=for-the-badge)
 
 *This page describes release **v0.9.20** (22 Nov 2026).* No account needed; saves stay in your own browser.
 
-![The world map with every rival airline's network](docs/screenshots/world-map.jpg)
-
-One player airline against **300+ computer airlines** in a living market. Passengers choose between you, your rivals and the train; fuel, wars, recessions and pandemics hit when history says they did. Deep simulation, shown with maps, cards and charts instead of spreadsheets.
+Start a new airline or rescue a failing one, then grow it against hundreds of fictional rivals in a living market. The jet age, oil shocks, deregulation, open skies, the low-cost boom and the pandemic all arrive on time.
 
 ## At a glance
-| 🌍 **2,170** airports | 🏙️ **1,822** cities | ✈️ **123** aircraft · 35 makers | 🏢 **~320** rival airlines |
+| 🌍 **2,222** airports | 🏙️ **1,822** cities | ✈️ **123** aircraft · 35 makers | 🏢 **~320** rival airlines |
 |:---:|:---:|:---:|:---:|
-| 📅 **1946–2026** everywhere | 📰 **1,386** real events | 🎯 **11** scenarios | 🏆 **20** levels · **40** achievements |
+| 📅 **1946–2026** everywhere | 📰 **1,386** real events | 🎯 **11** scenarios | 💱 **190+** currencies |
 
-Every country and territory has at least one airport; rival airlines are fictional and different in every game.
+Every country and territory has at least one airport. Rival airlines are fictional, and you choose how many: few, normal or many.
 
 ## How you play
-<table>
-<tr>
-<td width="50%"><img src="docs/screenshots/start.jpg" alt="Start screen"><br><b>Start your way</b> — found a new airline (custom or quick start), take over a struggling one for $1, or play a scenario with a goal and a deadline.</td>
-<td width="50%"><img src="docs/screenshots/find-routes.jpg" alt="Find routes"><br><b>Find routes</b> — every destination ranked by what a daily flight would earn, with room to grow and rivals on the map.</td>
-</tr>
-<tr>
-<td><img src="docs/screenshots/timetable.jpg" alt="Timetable"><br><b>Build the timetable</b> — drag flights between days and aircraft; slots, night closures and business-friendly hours are marked.</td>
-<td><img src="docs/screenshots/get-an-aircraft.jpg" alt="Get an aircraft"><br><b>Grow the fleet</b> — buy or lease, new or used, from the DC-3 to the A350; design the cabin and paint it in your colours.</td>
-</tr>
-</table>
-
-- 🛫 **Get certified first** — company, licence and proving flights before the first ticket (or skip with quick start).
-- 💵 **Price and sell** — fares per class, bag and seat fees, catering, marketing, partner airlines for connections, charter and cargo contracts, government-subsidised routes.
-- 👩‍✈️ **Lead people** — pilots, cabin crew and engineers, pay and union claims, a board that can fire you.
-- 🏦 **Run the money** — loans, shares, dividends and full accounts; three months without cash and it's over.
-- ⚠️ **Live with the world** — weather, airspace closures, accidents at real rates, fuel shocks, festivals and seasons, rivals that announce their moves, grow and go bust.
-
-<img src="docs/screenshots/rivals.jpg" alt="Rivals and partners">
+- 🛫 **Start your way** — found an airline (custom or quick start), take over a struggling one for $1, or play a scenario with a goal and a deadline. Get certified before the first ticket, or skip it.
+- 🗺️ **Find routes** — every destination ranked by what a daily flight would earn, with travellers, rivals and room to grow.
+- 🕐 **Set your times** — recommended departure times with reasons, a week view you can drag, slot limits by the runways an airport had that year; rivals give way when you hold a slot.
+- ✈️ **Grow the fleet** — buy or lease, new or used, from the DC-3 to the A350; fit the cabin class by class (seats, screens, Wi-Fi, lighting) and paint it in your colours.
+- 💵 **Price and sell** — fares per class (government tariffs before deregulation), bag and seat fees, catering, ground services, marketing, partner airlines, charter contracts, belly cargo and government-subsidised routes.
+- 👩‍✈️ **Lead people** — pilots, cabin crew and engineers, pay and union claims, advisers on every page, a board that can fire you.
+- 🏦 **Run the money** — loans, income tax, income statement, balance sheet and cash flow; three months without cash and it's over.
+- ⚠️ **Live with the world** — oil shocks, recessions, wars and closed airspace ask you to choose a response; weather, accidents at real rates, festivals and seasons; rivals announce their moves, grow and go bust, and new ones are founded.
 
 ## Why it feels real
-- **Passengers choose** every week between business, leisure and budget trips — fares, times, frequency, connections, trains, or staying home.
-- **Real-world numbers** for demand: populations, incomes, tourism and traffic since 1946. Every data row is marked *sourced*, *estimated* or *guess*.
-- **Real costs**: the year's fuel price, crews, maintenance, airport fees, leases, inflation and 190+ currencies. Long routes fly with fuel stops when the aircraft can't make it.
+- **Passengers choose** every week between business, leisure and budget trips — fares, times, frequency, connections, trains, the next airport, or staying home.
+- **Real-world numbers** for demand: populations, incomes, tourism and airport traffic since 1946. Every data row is marked *sourced*, *estimated* or *guess*.
+- **Era-true costs and fares**: the year's fuel price, crews, maintenance, airport fees and fares close to each era's real ones. Long routes fly with fuel stops when the aircraft can't make it.
 - **Real accounts**: double-entry books for every airline, checked every simulated day.
 
 ## Technical specs
 | | |
 |---|---|
-| Delivery | **One HTML file** (~2.8 MB), no server, no install; the internet is used only for the map library |
-| Code | ~37,000 lines of plain JavaScript, no frameworks; the simulation runs in a background thread so the screen never freezes |
-| Speed (MacBook Air) | new game ~15 s · a game month ~8–14 s |
+| Delivery | **One HTML file** (~3.2 MB), no server, no install; the internet is used only for the map library |
+| Code | ~48,000 lines of plain JavaScript, no frameworks; the simulation runs in a background thread so the screen never freezes |
+| Speed (MacBook Air) | new game ~15 s · a game month ~9–12 s in 2019, ~1 s in the 1960s |
 | Memory | ~400 MB of game data for the whole 2019 world; the browser tab peaks around 1.3–1.5 GB |
 | Saves | in the browser, 5 named slots, compressed |
 | Works on | any recent desktop browser (Chrome, Edge, Firefox, Safari); 8 GB RAM recommended |
@@ -59,10 +45,9 @@ Every country and territory has at least one airport; rival airlines are fiction
 The same game always gives the same result (checked by an automated play test), and every text is in one file, ready for translation.
 
 ## Coming next
-- 🎮 **Steam 1.0** — desktop version with saves on disk, Steam achievements, cloud saves and leaderboards; this browser version stays as a free demo.
-- ⚡ **Faster and lighter** — a game month under 5 s and less memory.
-- 🛬 **Airport view** of your bases, with your aircraft at the stands; hand-drawn aircraft art.
-- 📈 Stakes in rivals and hostile takeovers, daughter airlines abroad, cheap-early / dear-late fares, more scenarios.
+- 🎮 **Steam 1.0** — the full game as a desktop version; this browser version stays as a free demo.
+- ⚡ **Faster and lighter** — a 2019 game month under 5 seconds, and less memory.
+- 📦 **Expansions after launch** — Cargo (freighters and warehouses), Finance (going public, shareholders, dividends) and scenario packs.
 
 ## Release notes
 <!-- releases:start -->
